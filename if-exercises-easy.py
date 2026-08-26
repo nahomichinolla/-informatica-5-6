@@ -3,9 +3,9 @@ def main() :
 
     if number < 0:
         number = (number * -1)
+        print(number)
     else:
         print(number)
-    print(number)
 
 if __name__ == "__main__":
     main()
