@@ -1,7 +1,7 @@
 def main() :
     print("Descent atmosphere layer: ")
-    layer = input("Descent atmosphere layer: ")
-    if layer == Exosphere:
+    layer = input("Descent atmosphere layer: ").strip().lower()
+    if layer == "Exosphere":
         print("Your altiltitude level will be between 700 - 10000km")
     elif layer == "Mesosphere":
         print("Your altitude level will be between 50 - 85km")
