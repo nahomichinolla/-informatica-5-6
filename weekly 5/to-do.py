@@ -3,13 +3,13 @@ def main():
     answer = ""
 
     while answer != exit:
-        print ("Wat would you ike to do today?")
+        print("Wat would you ike to do today?")
         answer = input("add, remove, complete, exit\n: ").strip().lower()
 
         if answer == "add":
             print(tasks)
-            add = input("what would you like to add to your to do list? ")
-            where = int(input ("what position? "))
+            add = input("what would you like to add to your list? ")
+            where = int(input("what position? "))
             where -= 1
             tasks.insert(where, add)
             print("Item added")
