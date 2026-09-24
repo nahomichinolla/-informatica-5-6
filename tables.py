@@ -1,14 +1,17 @@
 def main():
+        while True:
 
-        num = input("Enter a number (1-10): ")
+            times_table = input("Enter a number: ").lower().strip()
 
-        num = int(num)
-        print("Here is the {num} times table")
+            if times_table == "exit":
+                 break
+            else:
+                max_value = int(input("Enter a maximum value for the times table: "))
 
-        for x in range(11):
-              answer = x * num
-              print(f"{x} times {num} is {answer}")
+                print(f"Here is the {times_table} times table")
 
+                for x in range(1, max_value + 1):
+                    answer = x * int(times_table)
 
 
 if __name__=="__main__":
