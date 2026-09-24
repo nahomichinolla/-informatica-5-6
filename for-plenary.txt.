@@ -1,0 +1,14 @@
+def main():
+    # While loop is
+    print("A while loop repeats code as long as a condition is true")
+
+    # For loop
+    print("A for loop is used when you know how many times you want o repeat a loop")
+
+    # Comparison
+    print("A while loop runs until a condition becomes false, and a for loop runs a fixed number of times")
+
+
+
+if __name__=="__main__":
+    main()
