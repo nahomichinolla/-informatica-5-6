@@ -1,0 +1,13 @@
+def main():
+    def welcome():
+        menu = ["Cheeseburger", "Fries", "Soda", "Ice Cream", "Cookie"]
+
+        print("Welcome to Fast Food!")
+        print("Heres the menu: ")
+
+        
+
+
+
+if __name__ == "__main__":
+    main()
