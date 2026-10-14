@@ -10,7 +10,16 @@ def main():
 def start_game(file):
     with open(file) as word_file:
         word = word_file.read().splitlines()
-    print(random.choice(word))
+    word = random.choice(word)
+    print("This is your word: ")
+    x = ["_"]*
+    print(" ".join(x))
+
+    while True:
+        guess = input("Take a guess: ")
+
+
+
 
 
 if __name__ == "__main__":
